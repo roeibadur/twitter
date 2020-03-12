@@ -1,0 +1,40 @@
+.container
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;      
+    
+}
+.text-container
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.chat-container
+{
+    position: relative;
+    right:190px;
+    
+} 
+textarea
+{
+    width: 400px;
+    height: 100px;
+    
+}
+.tweetButton
+{
+    background-color: #38A1F3;
+    color:white;
+    display: block;
+    border: none;
+    width:60px;
+    height: 30px;
+    align-self: flex-end;
+    margin-left: 20px;
+    
+}
+

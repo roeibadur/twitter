@@ -1,0 +1,36 @@
+<!Doctype html>
+<html>
+<head>
+<link href="style-users.css" type="text/css" rel="stylesheet">
+<link href="style-template.css" type="text/css" rel="stylesheet">
+<script src="users.js"></script>
+</head>
+<body>
+    <div class="up-container"> 
+        <div class="left-container">
+            <table>
+                <tr>
+                        <td><img src="assets/logo.png" height="30px" width="30px"></td>    
+                        <td class="ofek"> OfekTwitter </td>
+                        <td><button onclick="window.location.href='Tweet.html';"> Tweets</td>
+                        <td><button onclick="window.location.href='Users.html';"> Users </button></td>
+                        <td><button onclick="window.location.href='AboutUs.html';"> About Us </button></td>
+                </tr>
+        </table>
+        </div> 
+        <div class="right-container" id="log">
+            <span id="log" class="login"><script src="status.js"></script></span>                           
+        </div>
+        
+    </div>
+    <br><br>
+    <div class="container-search">
+        <span><input type="text" id="search" placeholder="search user"></span>
+        <span><button class="follow"  onclick=search()>Search</button></span>
+    </div>    
+    <div class="container-users" id="users">
+        <script>showusers()</script>
+    </div>
+          
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!Doctype html>
+<html>
+<head>
+    <link href="style-signup.css" type="text/css" rel="stylesheet">
+    <link href="style-template.css" type="text/css" rel="stylesheet">
+    <script src="SignUP.js"></script>
+</head>
+<body>
+    <div class="up-container"> 
+        <div class="left-container">
+            <table>
+                <tr>
+                        <td><img src="assets/logo.png" height="30px" width="30px"></td>    
+                        <td class="ofek"> OfekTwitter </td>
+                        <td><button onclick="window.location.href='Tweet.html';"> Tweets</td>
+                        <td><button onclick="window.location.href='Users.html';"> Users </button></td>
+                        <td><button onclick="window.location.href='AboutUs.html';"> About Us </button></td>
+                </tr>
+        </table>
+        </div> 
+        <div class="right-container" id="log">
+            <span id="log" class="login"><script src="status.js"></script></span>                          
+        </div>
+        
+    </div>
+    <br><br><br><br><br>
+    <div class="login">
+        <form id="form">
+            <table id = table>
+                <tr>       
+                    <td>Username</td>
+                    <td><input id="Username" type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Display Name</td>
+                    <td><input id="Displayname" type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input id="password" type="password" required></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input id="confirmPassword" type="password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input  id="submit" type="submit" value="Sign Up" class="signup" onclick=newUser()></td>  
+                </tr>
+            </table>
+        </form>
+    
+    </div>
+</body>
+</html> 

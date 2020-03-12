@@ -1,0 +1,39 @@
+<!Doctype html>
+<html>
+<head>
+        <link href="style-Tweet.css" type="text/css" rel="stylesheet">
+        <link href="style-template.css" type="text/css" rel="stylesheet">
+        <script src="main.js"></script>        
+        <script src="Tweet.js"></script>      
+</head>
+<body>
+        <div class="up-container"> 
+                <div class="left-container">
+                        <table>
+                                <tr>
+                                        <td><img src="assets/logo.png" height="30px" width="30px"></td>    
+                                        <td class="ofek"> OfekTwitter </td>
+                                        <td><button onclick="window.location.href='Tweet.html';"> Tweets</td>
+                                        <td><button onclick="window.location.href='Users.html';"> Users </button></td>
+                                        <td><button onclick="window.location.href='AboutUs.html';"> About Us </button></td>
+                                </tr>
+                        </table>
+                </div> 
+                <div class="right-container" id="log">
+                        <span id="log" class="login"><script src="status.js"></script></span>                           
+                </div>
+                
+        </div>
+        <br>
+        <div class="container">
+                <div class="text-container">
+                         <textarea id="text" placeholder="Share your ideas"></textarea>                
+                         <button onclick=writeTweet() class="tweetButton">Tweet</button>
+                </div>
+                <br>
+                <div class="chat-container">
+                        <p id="chat" hidden></p>
+                </div>
+        </div>        
+</body>
+</html>

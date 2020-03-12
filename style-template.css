@@ -1,0 +1,46 @@
+.up-container
+{
+    display:flex;
+    background-color:#38A1F3;
+    align-items:center; 
+    
+    
+}
+
+.up-container  div
+{    
+    color:white;
+    padding: 0 20px;
+
+}
+.ofek
+{
+    font-weight: bold;
+}
+
+.left-container 
+{
+    flex-basis: 90%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+    
+}
+button
+{
+    background-color: #38A1F3;
+    color:white;
+    display: inline;
+    border: none;
+    cursor: pointer;              
+}
+table 
+{
+    border-spacing: 10px;
+}
+ body
+ {
+    margin: 0;
+    padding: 0;
+ }
+

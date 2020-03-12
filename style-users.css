@@ -1,0 +1,35 @@
+.container-users
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.container-user
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 50px;
+    border: 1px solid black;
+}
+.container-search
+{
+    display: flex;
+    justify-content: center;
+}
+.follow
+{
+    background-color: #38A1F3;
+    color:white;
+    border: none;
+    width: 70px;
+    height: 30px;
+}
+span 
+{
+    padding-right: 10px;
+}
+
