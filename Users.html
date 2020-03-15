@@ -4,8 +4,9 @@
 <link href="style-users.css" type="text/css" rel="stylesheet">
 <link href="style-template.css" type="text/css" rel="stylesheet">
 <script src="jquery-3.4.1.js"></script>
-<script src="users.js"></script>
 <script src="status.js"></script>
+<script src="users.js"></script>
+
 </head>
 <body>
     <div class="up-container"> 
@@ -14,9 +15,9 @@
                 <tr>
                         <td><img src="assets/logo.png" height="30px" width="30px"></td>    
                         <td class="ofek"> OfekTwitter </td>
-                        <td><a href="Tweet.html"> Tweets</td>
-                        <td><button onclick="window.location.href='Users.html';"> Users </button></td>
-                        <td><button onclick="window.location.href='AboutUs.html';"> About Us </button></td>
+                        <td><a href="Tweet.html"> Tweets</a></td>
+                        <td><a href="Users.html"> Users </a></td>
+                        <td><a href="AboutUs.html"> About Us </a></td>
                 </tr>
         </table>
         </div> 
@@ -28,10 +29,8 @@
     <br><br>
     <div class="container-search">
         <span><input type="text" id="search" placeholder="search user"></span>
-    </div>    
-    <div class="container-users" id="users">
-        <script>showusers()</script>
-    </div>
+    </div> 
+    <div class="container-users" id="users"></div>    
           
 </body>
 </html>

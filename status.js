@@ -1,4 +1,5 @@
 "use strict"
+$("document").ready(function(){
     let account;
     for (let i = 0; i<localStorage.length; i++){
             account  = JSON.parse(window.localStorage.getItem(localStorage.key(i)));
@@ -7,7 +8,7 @@
     }
     if(account.status=="true"){
 
-        let elem=$("<button></button>").html("Logout").click(function(){
+        let elem=$("<a></a>").html("Logout").click(function(){
             logout(this)
         });
         $("#log").append(elem); 
@@ -15,10 +16,10 @@
     }
     else{
 
-        let elem=$("<button></button>").html("Login").click(function(){window.location.href='Login.html';});
+        let elem=$("<a></a>").html("Login").click(function(){window.location.href='Login.html';});
         $("#log").append(elem);  
     }
-     
+});     
 function logout(elem){
     for (let i = 0; i<localStorage.length; i++) 
     {
