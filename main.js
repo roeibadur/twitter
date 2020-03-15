@@ -1,15 +1,11 @@
 "use strict"
-function login(user){
-
-    user.status="true";
-}
+function login(user){user.status="true";}
 function whoConnected(){
 
     for (let i = 0; i<localStorage.length; i++){
         
         let account  = JSON.parse(window.localStorage.getItem(localStorage.key(i)));
-        if(account.status=="true") return account;
-                   
+        if(account.status=="true") return account;                   
     }
     return null;
 }
