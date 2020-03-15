@@ -1,5 +1,8 @@
 "use strict"
-function login(user){user.status="true";}
+function login(user){
+    user.status="true";
+}
+
 function whoConnected(){
 
     for (let i = 0; i<localStorage.length; i++){

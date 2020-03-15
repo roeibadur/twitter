@@ -7,7 +7,9 @@
     }
     if(account.status=="true"){
 
-        let elem=$("<button></button>").html("Logout").click(function(){logout(this)});
+        let elem=$("<button></button>").html("Logout").click(function(){
+            logout(this)
+        });
         $("#log").append(elem); 
 
     }
